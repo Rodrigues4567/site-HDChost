@@ -111,3 +111,53 @@ header .hdc-logo {
 .item1 p, .item2 p, .item3 p {
     margin-bottom: 3rem;
 }
+
+/********************* Media Queries **********************/
+
+@media screen and (max-width: 630px) {
+
+    .nav-list {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu-options ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .nav-itens-mobile {
+        display: block;
+        padding: 1.2rem 0px;
+    }
+
+    .nav-itens-mobile a {
+        color: rgb(238, 232, 232);
+        text-decoration: none;
+    }
+
+    .nav-itens-mobile a:hover {
+        text-decoration: underline;
+    }
+
+    .open {
+        display: block;
+        background-color: #242932;
+    }
+
+}
