@@ -140,19 +140,27 @@ header .hdc-logo {
 }
 
 .price {
+    position: relative;
     margin: auto;
     width: 120px;
     background-color: #2DC662;
     color: #fff;
+    font-size: 1.1rem;
     border-radius: 50%;
-    padding: 3.3rem 0px;
+    padding: 3.2rem 0px;
+    margin-bottom: -3rem;
 }
 
 .plans-title {
     background-color: #212A34;
     color: #fff;
-    padding: 3rem 0px 1rem 0px;
+    padding: 4rem 0px 1rem 0px;
     width: 90vw;
+}
+
+.mais-vendido {
+    background-color: rgb(233, 11, 11);
+    color: #fff;
 }
 
 .plans-description {
@@ -172,6 +180,11 @@ header .hdc-logo {
     font-weight: bold;
     width: 90vw;
     padding: 1.3rem 0px;
+}
+
+.saber-mais:hover {
+    background-color: #23a04f;
+    transition: 0.4s;
 }
 
 /********************* Media Queries **********************/
