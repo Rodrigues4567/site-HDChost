@@ -82,6 +82,11 @@ header .hdc-logo {
     letter-spacing: 1px;
 }
 
+.home-title p {
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
 .section1 {
     display: flex;
 }
@@ -195,7 +200,7 @@ header .hdc-logo {
     justify-content: center;
     text-align: center;
     background-color: #354550;
-    padding: 3rem 1rem;
+    padding: 3.5rem 1rem;
     margin: 5rem 0px;
 }
 
@@ -215,7 +220,7 @@ header .hdc-logo {
 }
 
 .section3-inputs .input-text {
-    width: 80vw;
+    width: 85vw;
     padding: 14px;
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -227,7 +232,7 @@ header .hdc-logo {
 .section3-inputs .button {
     display: block;
     margin: auto;
-    width: 80vw;
+    width: 85vw;
     padding: 14px 0px;
     background-color: #2DC662;
     color: #fff;
@@ -239,6 +244,81 @@ header .hdc-logo {
 .section3-inputs .button:hover {
     background-color: #23a04f;
     transition: 0.4s;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+}
+
+.section4-tilte {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section4-tilte h2 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.section4-tilte p {
+    color: #3a3939;
+}
+
+.section4-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.section4-form #nome {
+    width: 85vw;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(85, 84, 84, 0.651);
+}
+
+.section4-form #email {
+    width: 85vw;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(85, 84, 84, 0.651);
+}
+
+.section4-form #desc {
+    width: 85vw;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(85, 84, 84, 0.651);
+    font-family: 'padrão', sans-serif;
+}
+
+.section4-button {
+    width: 85vw;
+    padding: 12px 0px;
+    background-color: #2DC662;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.section4-button:hover {
+    background-color: #23a04f;
+    transition: 0.4s;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(104, 103, 103);
+    margin-bottom: 1.2rem;
 }
 
 /********************* Media Queries **********************/
@@ -282,6 +362,10 @@ header .hdc-logo {
 
     .nav-itens-mobile a:hover {
         text-decoration: underline;
+    }
+
+    .icon {
+        height: 35px;
     }
 
     .open {
