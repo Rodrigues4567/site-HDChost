@@ -85,6 +85,7 @@ header .hdc-logo {
 .home-title p {
     margin-top: 5px;
     font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
 .section1 {
@@ -183,7 +184,6 @@ header .hdc-logo {
     color: #fff;
     font-size: 1.1rem;
     font-weight: bold;
-    width: 90vw;
     padding: 1.3rem 0px;
 }
 
@@ -325,6 +325,8 @@ footer {
 
 @media screen and (max-width: 630px) {
 
+    /*********************** MENU-MOBILE **********************/
+
     .nav-list {
         display: none;
     }
@@ -371,6 +373,75 @@ footer {
     .open {
         display: block;
         background-color: #242932;
+    }
+}
+
+@media screen and (min-width: 630px) {
+
+    .home-title h1 {
+        font-size: 3.3rem;
+    }
+
+    .home-title p {
+        font-size: 1.2rem;
+    }
+
+    .item1, .item2, .item3 {
+        width: 420px;
+    }
+
+    .prices-boxes {
+        margin: auto;
+    }
+
+    .plans-title {
+        width: 470px;
+    }
+
+    .section3-inputs .input-text {
+        width: 470px;
+    }
+
+    .section3-inputs .button {
+        width: 470px;
+    }
+
+    .section4-form #nome {
+        width: 470px;
+    }
+    
+    .section4-form #email {
+        width: 470px;
+    }
+    
+    .section4-form #desc {
+        width: 470px;
+    }
+    
+    .section4-button {
+        width: 470px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .home-title h1 {
+        font-size: 3.4rem;
+    }
+
+    .home-title p {
+        font-size: 1.3rem;
+    }
+
+    .about-items{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2.2rem;
+    }
+
+    .item1, .item2, .item3 {
+        width: 370px;
     }
 
 }
